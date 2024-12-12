@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "74292342554",
+    "project_id": "modu-tour-9d818",
+    "storage_bucket": "modu-tour-9d818.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74292342554:android:7c6834471f9379ae4346a3",
+        "android_client_info": {
+          "package_name": "com.example.modu_tour"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5hbDfHES0F4DBOFp1utTTXbmFEfWu354"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
