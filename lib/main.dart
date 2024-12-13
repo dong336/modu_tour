@@ -2,8 +2,9 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:flutter/material.dart';
 import 'package:modu_tour/sign_page.dart';
-import 'login.dart';
 import 'handler/bluetooth_permission_handler.dart';
+import 'login.dart';
+import 'main_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -28,6 +29,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => LoginPage(),
         '/sign': (context) => SignPage(),
+        '/main': (context) => MainPage(),
       },
     );
   }
