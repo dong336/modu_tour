@@ -3,11 +3,13 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:flutter/material.dart';
 import 'package:modu_tour/sign_page.dart';
 import 'login.dart';
+import 'handler/bluetooth_permission_handler.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   MobileAds.instance.initialize();
   await Firebase.initializeApp();
+  await BluetoothPermissionManager.checkAndRequestPermissions();
   runApp(const MyApp());
 }
 

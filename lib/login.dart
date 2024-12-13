@@ -80,6 +80,20 @@ class _LoginPageState extends State<LoginPage>
                 builder: (BuildContext context, Widget? child) {
                   return Transform.rotate(
                     angle: _animation!.value,
+                    child: child,
+                  );
+                },
+                child: const Icon(
+                  Icons.airplanemode_active,
+                  color: Colors.deepOrangeAccent,
+                  size: 80,
+                ),
+              ),
+              AnimatedBuilder(
+                animation: _animationController!,
+                builder: (BuildContext context, Widget? child) {
+                  return Transform.rotate(
+                    angle: _animation!.value,
                     child: widget,
                   );
                 },
